@@ -1,0 +1,96 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+header {
+    background-color: #ECECEC;
+}
+.top-header, nav {
+    width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.top-header {
+    height: 30px;
+	padding: 8px;
+    font-size: 11px;
+    background-color: #ECECEC;
+}
+.fa-envelope-o, .fa-mobile {
+    padding-right: 5px;
+    color: #000;
+}
+.top-header a {
+    color: #8A8A8A;
+}
+.contacts {
+    display: inline-block;
+}
+.contacts a {
+    padding-right: 10px;
+}
+.social-buttons {
+    padding: 0 5px 0 0;
+    float: right;
+}
+.social-buttons a {
+    padding: 5px;
+}
+nav {
+    display: block;
+    background-color: #fff;
+    height: 30px;
+    font-family: 'Patua One', cursive;
+    font-weight: bold;
+}
+nav a {
+    color: #0C0C0C;
+    padding: 0 0 0 0;
+}
+nav h2 a {
+    text-decoration: none;
+}
+nav ul a {
+    border: 1px solid #000;
+    padding: 5px;
+    border-radius: 3px;
+}
+nav ul a:hover {
+    color: #fff;
+    background-color: #000;
+    text-decoration: none;
+}
+nav ul a {
+    transition: 1s;
+}
+nav ul {
+    float: right;
+    margin-top: -32px;
+    padding-right: 20px;
+    font-size: 12px;
+}
+nav ul li {
+    display: inline-block;
+    padding: 7px;
+}
+nav h2 {
+    display: block;
+    font-size: 27px;
+    text-decoration: none;
+    margin: 0 0;
+    padding: 34px 0px 0 8px;
+}
+input {
+    border-radius: 5px;
+    width: 200px;
+    margin-left: 50px;
+}
+.btn-default {
+    height: 22px;
+    color: #0A0A0A;
+    background-color: #B3A3A3;
+    border-color: #100F0F;
+    margin-left: 13px;
+    padding: 3px;
+    font-size: 12px;
+}
